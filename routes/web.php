@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/curs', function () {
     return view('curs');
 });
+
+Route::get('/laravel', function () {
+    return view('welcome');
+});
